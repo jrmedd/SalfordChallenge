@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Salford Challenge</title>
+  <link rel="stylesheet" type="text/css" href="frameworks/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div id="main-wrapper">
+    <h1 id="stopwatch">00:00</h1>
+  </div>
+    <nav id="config-bar" class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <div id="serial-widget" class="input-group">
+          <div class="input-group-addon">Ports</div>
+          <select class="form-control" id="serial-select">
+          </select>
+          <span class="input-group-btn">
+            <button id="choose-serial-port" class="btn btn-default">Choose</button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="frameworks/jquery.min.js"></script>
+  <script src="frameworks/bootstrap.min.js"></script>
+  <script src="js/hardware.js"></script>
+  <script src="js/stopWatch.js"></script>
+  <script src="js/timerLogic.js"></script>
+</body>
